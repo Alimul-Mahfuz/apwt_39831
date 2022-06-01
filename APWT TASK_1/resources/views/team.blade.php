@@ -1,4 +1,5 @@
-
+@extends('layout.navbar')
+@section('content')
 <h2>Team List</h2>
 <table style="border: 2px solid black">
     <tr>
@@ -19,3 +20,4 @@
 
 
 </table>
+@endsection

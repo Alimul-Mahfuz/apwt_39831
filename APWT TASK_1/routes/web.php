@@ -15,6 +15,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/',[page_Controller::class,'home'])->name('home');
-Route::get('/contact',[page_Controller::class,'Aboutus'])->name('aboutus');
-Route::get('/aboutus',[page_Controller::class,'Contactus'])->name('contactus');
+Route::get('/aboutus',[page_Controller::class,'Aboutus'])->name('aboutus');
+Route::get('/contactus',[page_Controller::class,'Contactus'])->name('contactus');
 Route::get('/teamlist',[team_list_controller::class,'PrintTeamList'])->name('teamlist');
+Route::get('/productlist',[product_controller::class,'PrintProductList'])->name('productlist');
